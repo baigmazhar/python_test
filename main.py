@@ -26,3 +26,10 @@ b= 20
 c= 30
 d= a>b or b<c
 print(d)
+
+
+a= not False    #True
+print(a)
+
+a= not True    #False
+print(a)
