@@ -33,3 +33,13 @@ print(a)
 
 a= not True    #False
 print(a)
+
+
+a= int(input("Enter an integer: "))
+b= int(input("Enter another integer: "))
+print(a,b)
+
+
+a= int(input("Enter an integer: "))
+b= int(input("Enter another integer: "))
+print(a+b)
