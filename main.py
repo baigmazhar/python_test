@@ -11,3 +11,18 @@ a=10
 b=20
 c=a>b
 print(c)
+
+
+#and operator
+a= 10
+b= 20
+c= 30
+d=a>b and b<c
+print(d)
+
+#or operator
+a= 10
+b= 20
+c= 30
+d= a>b or b<c
+print(d)
