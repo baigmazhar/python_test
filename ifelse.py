@@ -15,7 +15,7 @@ if(a>b) and (a>c):
     print(a,"is greater number")
 elif(b>a) and (b>c):
     print(b,"is greater number")
-elif(c>a) and (c>b):
+else:
     print(c,"is greater number")
 
 # minimum number
@@ -23,5 +23,5 @@ if(a<b) and (a<c):
     print(a,"is lower number")
 elif(b<a) and (b<c):
     print(b,"is lower number")
-elif(c<a) and (c<b):
+else:
     print(c,"is lower number")
