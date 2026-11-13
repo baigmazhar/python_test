@@ -61,3 +61,35 @@ total = 0
 for i in range(1,5):
     total = total + i
     print(total)
+
+
+#prime number
+for i in range(1,8):
+    if i%2==1:
+        print(i,"prime number")
+    else:
+        print(i,"not prime number")
+
+'''
+#infinite loop
+x=1
+while x!=0:
+    print(x)
+    x=x+
+'''
+
+# for loop
+n=10
+sum=0
+for i in range(1,n+1):    sum=sum+i
+print(sum)
+
+# while loop
+n=10
+i=1
+sum=0
+while i<n+1:
+    sum=sum+i
+    i=i+1
+print(sum)
+
