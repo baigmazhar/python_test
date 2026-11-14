@@ -93,3 +93,47 @@ while i<n+1:
     i=i+1
 print(sum)
 
+
+n=7
+i=1
+while i<=n:
+    i = i+1
+print(i)
+
+
+
+2
+4
+6
+8
+10
+
+1
+3
+5
+7
+9
+
+#even odd numbers
+m=int(input("Enter an integer: "))
+while m != 0:
+
+    if m%2==0:
+        print(m," This is even number")
+    else:
+        print(m," This is odd number")
+
+
+    m=0
+
+
+
+#even odd numbers
+k=int(input("Please enter the integer value: "))
+while k != 0:
+    if k%2==0:
+        print(k," This is even number")
+    else:
+        print(k," This is odd number")
+
+    k=0
